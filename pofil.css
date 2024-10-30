@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #003a70;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Menyediakan tinggi minimal 100% dari viewport */
+}
+
+header {
+    background-color: #94003E;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+#founder-profile {
+    flex: 1; /* Mengisi ruang yang tersisa agar footer tetap di bawah */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center; /* Memusatkan teks */
+}
+
+.profile-container {
+    background-color: rgb(0, 65, 125);
+    border: 0px solid #ddd;
+    border-radius: 8px;
+    padding: 6rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 150px; /* Atur ukuran gambar sesuai keinginan */
+    border-radius: 50%; /* Membuat gambar bulat */
+    margin-bottom: 1rem; /* Jarak antara gambar dan teks */
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.bio {
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    text-align: left; /* Menyusun daftar di kiri */
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Menempatkan tombol di tengah */
+    gap: 0px; /* Jarak antara tombol */
+    padding: 1rem 0;
+}
+.button_Back{
+    background-color: #94003E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.button_HOME{
+    background-color: #F6B706;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003a70;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.logo_kiri_atas{
+    position: absolute;
+    top: -15px; /* Jarak dari bagian atas halaman */
+    left: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
+.logo_kanan_atas{
+    position: absolute;
+    top: -15px; /* Jarak dari bagian atas halaman */
+    right: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
+p{
+    color:#ffffff 
+}
+li{
+    color:#ffffff
+}
+.icon_container{
+    display: flex;
+    
+    justify-content: center; /* Menempatkan ikon di tengah */
+    gap: 10px; /* Jarak antar ikon */
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+.icon_container i:hover{
+    color: aqua;
+}
+.icon_container i{
+    color:#ffffff;
+}

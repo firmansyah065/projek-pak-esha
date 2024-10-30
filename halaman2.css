@@ -1,0 +1,114 @@
+/* Mengatur body agar menggunakan Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Menyediakan tinggi minimal 100% dari viewport */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #003a70;
+    color: #333;
+}
+
+
+ /* Mengatur kontainer utama */
+header {
+    background-color: #94003E;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+    
+h1 {
+    color: #ffffff;
+}
+
+#jersey-collection {
+    display: flex;
+    flex-wrap: nowrap; /* Mengatur agar item tidak membungkus */
+    justify-content: flex-start; /* Item akan berada dalam satu baris */
+    justify-content: center; /* Memusatkan item di tengah */
+    gap: 20px;
+    padding: 2rem;
+    overflow-x: auto; /* Menambahkan scroll horizontal jika item terlalu banyak */
+}
+/* Konten utama memiliki flex: 1 agar mengisi ruang */
+section {
+    flex: 1; /* Mengisi ruang yang tersisa agar footer tetap di bawah */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.jersey-item {
+    background-color: #94003E;
+    border: 1px solid #950000;
+    border-radius: 8px;
+    width: 250px; /* Lebar tetap untuk setiap item */
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; /* Mencegah item mengecil pada layar kecil */
+}
+
+.jersey-image {
+    width: 100%;
+    border-radius: 8px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #F6B706;
+    font-weight: bold;
+}
+
+/* Footer berada di bawah dengan padding */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003a70;
+    color: white;
+    font-size: 0.9rem;
+}
+.logo_kiri_atas{
+    position: absolute;
+    top: 28px; /* Jarak dari bagian atas halaman */
+    left: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
+.logo_kanan_atas{
+    position: absolute;
+    top: 28px; /* Jarak dari bagian atas halaman */
+    right: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Menempatkan tombol di tengah */
+    gap: 0px; /* Jarak antara tombol */
+    padding: 1rem 0;
+}
+.button_Back{
+    background-color: #94003E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.button_Next{
+    background-color: #F6B706;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+p{
+    color:#ffffff
+}

@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #003a70;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #94003E;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+h1 {
+    color: #ffffff;
+}
+h2{
+    color: #ffffff;
+}
+h3{
+    color: #ffffff;
+}
+p{
+    color:#ffffff
+}
+li{
+    color:#ffffff
+}
+section {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Menempatkan tombol di tengah */
+    gap: 0px; /* Jarak antara tombol */
+    padding: 1rem 0;
+}
+.button_Back{
+    background-color: #94003E;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+.button_Next{
+    background-color: #F6B706;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003a70;
+    color: white;
+    font-size: 0.9rem;
+    
+}
+
+.logo_kiri_atas{
+    position: absolute;
+    top: 15px; /* Jarak dari bagian atas halaman */
+    left: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
+.logo_kanan_atas{
+    position: absolute;
+    top: 15px; /* Jarak dari bagian atas halaman */
+    right: 50px; /* Jarak dari bagian kiri halaman */
+    width: 150px; /* Lebar gambar, sesuaikan sesuai kebutuhan */
+    height: auto;
+}
